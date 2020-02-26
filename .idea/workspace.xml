@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d30b3718-20eb-480f-acf8-14c2d33e6a50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/action-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/logo/logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/logo/logo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/logo/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/register/register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/register/register.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/logo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +43,12 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/logo" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -51,6 +59,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -68,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.eject" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -82,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582667436333</updated>
-      <workItem from="1582667437601" duration="3798000" />
+      <workItem from="1582667437601" duration="12984000" />
     </task>
     <task id="LOCAL-00001" summary="antd and router">
       <created>1582672002228</created>
@@ -91,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582672002228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="introduce redux,react-redux,redux-thunk">
+      <created>1582672973393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582672973393</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="antd and router" />
-    <option name="LAST_COMMIT_MESSAGE" value="antd and router" />
+    <MESSAGE value="introduce redux,react-redux,redux-thunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduce redux,react-redux,redux-thunk" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#ESLint" timestamp="1582670365254">
@@ -110,29 +137,33 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="557" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1582672269671" />
-    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1582672001964">
+    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1582672973196">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582672001964" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1582670923977">
+    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582672973196" />
+    <state width="1638" height="204" key="GridCell.Tab.0.bottom" timestamp="1582704254923">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582670923977" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1582670923975">
+    <state width="1638" height="204" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582704254923" />
+    <state width="1638" height="204" key="GridCell.Tab.0.center" timestamp="1582704254921">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582670923975" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1582670923974">
+    <state width="1638" height="204" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582704254921" />
+    <state width="1638" height="204" key="GridCell.Tab.0.left" timestamp="1582704254921">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582670923974" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1582670923976">
+    <state width="1638" height="204" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582704254921" />
+    <state width="1638" height="204" key="GridCell.Tab.0.right" timestamp="1582704254922">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582670923976" />
+    <state width="1638" height="204" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582704254922" />
     <state x="349" y="164" key="SettingsEditor" timestamp="1582667753434">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1582667753434" />
+    <state x="570" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582686249433">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="570" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582686249433" />
   </component>
 </project>
